@@ -1,0 +1,28 @@
+{
+    "solution": {
+        "teamsAppTenantId": "78ba4916-ec74-4762-a71e-2e3791cbb7c6"
+    },
+    "fx-resource-frontend-hosting": {
+        "indexPath": "/index.html#",
+        "endpoint": "https://localhost:53000",
+        "domain": "localhost",
+        "sslCertFile": "C:/Users/TomJessup/.fx/certificate/localhost.crt",
+        "sslKeyFile": "C:/Users/TomJessup/.fx/certificate/localhost.key"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "1788d89f-997c-4dbc-ac04-68074bde4d8e",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "7578a761-d2d5-4675-923e-2a2743da80c9",
+        "oauth2PermissionScopeId": "97b8cea7-809b-4d2e-aee5-110732ea0e32",
+        "tenantId": "78ba4916-ec74-4762-a71e-2e3791cbb7c6",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/78ba4916-ec74-4762-a71e-2e3791cbb7c6",
+        "applicationIdUris": "api://localhost/1788d89f-997c-4dbc-ac04-68074bde4d8e",
+        "frontendEndpoint": "https://localhost"
+    },
+    "fx-resource-simple-auth": {},
+    "fx-resource-appstudio": {
+        "teamsAppUpdatedAt": 1659019966848,
+        "teamsAppId": "a9b85f05-7a63-4dab-8880-45dca180ccaa"
+    }
+}
